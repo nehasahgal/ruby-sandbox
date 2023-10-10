@@ -19,5 +19,8 @@ pp my_string
 "rubies".singularize
 "equipment".singularize
 
+pp "What's your name?"
+their_name = gets.chomp
+puts "Hello, " + their_name + "!"
 
 require "./goodbye.rb"

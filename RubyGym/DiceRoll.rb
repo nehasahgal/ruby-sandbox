@@ -1,6 +1,9 @@
 # write your program below
-roll = 1 + rand(6) #roll
-guess = 1 + rand(6) #guess
+guess = rand(6-1) #guess
+roll = rand(6-1) #roll
+
+roll = roll.to_s
+guess = guess.to_s
 
 if roll == guess
   pp "You guessed correctly"

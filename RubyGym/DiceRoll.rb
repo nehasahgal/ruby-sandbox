@@ -1,9 +1,9 @@
-Y = 1 + rand(6)
-pp Y
+# write your program below
+roll = 1 + rand(6) #roll
+guess = 1 + rand(6) #guess
 
-X = 1 + rand(6)
-
-if Y == X
+if roll == guess
   pp "You guessed correctly"
-  else pp "Sorry, you guessed " + X.to_s + ". The die landed on " + Y.to_s + "."
+  else 
+	pp "Sorry, you guessed " + guess.to_s + ". The die landed on " + roll.to_s + "."
 end
